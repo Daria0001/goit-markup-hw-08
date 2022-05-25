@@ -355,10 +355,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #212121;
 }
 
-@media (max-width: 767.95px) {
+@media (max-width: 767px) {
   .especially__title {
     text-align: center;
   }
@@ -1244,6 +1245,34 @@ a {
 
 .mobnav__item {
   margin-bottom: 32px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mobnav__tel-meil {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobnav__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .socialmob {

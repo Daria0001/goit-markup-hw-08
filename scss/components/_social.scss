@@ -1,0 +1,31 @@
+.social {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+
+  &__list:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__icon {
+    fill: #afb1b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__icon:hover,
+  &__icon:focus {
+    fill: #ffffff;
+    background: #2196f3;
+  }
+  &__icon--footer {
+    background: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+  }
+}

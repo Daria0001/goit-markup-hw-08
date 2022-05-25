@@ -1,0 +1,44 @@
+.peculiarities {
+  padding: 60px 0;
+
+  @media (min-width: 1200px) {
+    padding: 94px 0;
+  }
+
+  &__container {}
+
+
+
+
+  &__flex:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.especially {
+  margin-bottom: 30px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  &__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}

@@ -1,0 +1,52 @@
+.projects {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+
+
+  padding-bottom: 94px;
+
+  &__title {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  &__features {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  &__img:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__img {
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 4px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 27px 0;
+  }
+}

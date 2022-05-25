@@ -1,0 +1,56 @@
+.information {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+
+  &__text {
+    margin: 0;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Постоянные клиенты */
+
+/* 
+
+
+
+.list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.list li {
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+} */
+
+/*  */
+
+/* position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  clip-path: inset(100%); */

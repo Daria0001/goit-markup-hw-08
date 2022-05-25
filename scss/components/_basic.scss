@@ -1,0 +1,40 @@
+body {
+  /* font-family: "Raleway", sans-serif;  */
+  font-family: "Roboto", sans-serif;
+  font-size: normal;
+  background: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+
+  padding: 0 15px;
+
+  @media screen and (max-width: 767px) {}
+
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}

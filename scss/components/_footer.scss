@@ -1,0 +1,132 @@
+.footer {
+  text-align: center;
+  background: #2f303a;
+  padding: 60px 0;
+
+  &__container {
+    text-align: center;
+
+  }
+
+  &__adress {
+    @media (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__social {
+    margin-bottom: 60px;
+
+    @media (min-width: 1200px) {
+      padding-top: 10px;
+    }
+  }
+
+  &__mailing-list {
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      padding-top: 10px;
+    }
+  }
+
+  &__logo {
+    margin-left: 0;
+    color: #2196f3;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.83;
+    letter-spacing: 0.03em;
+  }
+
+  &__logo span {
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.83;
+    letter-spacing: 0.03em;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.adress {
+  &__street {
+    margin-top: 20px;
+    margin-left: 0;
+    display: block;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+
+  &__contact {
+    margin-left: 0;
+    display: block;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+}
+
+.subscription {
+  &__input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 16px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    color: #ffffff;
+  }
+}
+
+.button-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  &__img {
+    margin-left: 10px;
+    fill: #ffffff;
+  }
+}

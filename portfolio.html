@@ -55,6 +55,11 @@
             >
           </li>
         </ul>
+        <button class="burger" type="button" burger-portfolio-open>
+        <svg class="burger__icon" width="40" height="40">
+          <use href="./images/symbol-defs.svg#burger"></use>
+        </svg>
+      </button>
       </div>
     </header>
 
@@ -254,9 +259,11 @@
         </div>
       </section>
     </main>
+
+    <!-- Подвал -->
    <footer class="footer">
       <div class="container footer__container">
-        <!-- Подвал -->
+        
         <div class="footer__adress">
           <a class="footer__logo" href="WebStudio">Web<span>Studio</span></a>
 
@@ -320,5 +327,50 @@
         </div>
       </div>
     </footer>
+
+     <!-- burger-menu -->
+  <div class="mob-menu portfolio-is-hidden" portfolio> 
+    <div class="mob-menu__block">
+      <button class="mob-menu__button" type="button" burger-portfolio-close>
+        <svg width="40" height="40">
+          <use href="./images/symbol-defs.svg#close"></use>
+        </svg>
+      </button>
+      <nav class="mobnav">
+        <ul class="mobnav__menu">
+          <li class="mobnav__item">
+            <a class="mobnav__link " href="./index.html">Студия</a>
+          </li>
+          <li class="mobnav__item">
+            <a class="mobnav__link accent" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="mobnav__item">
+            <a class="mobnav__link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="mobnav__contact">
+          <li class="mobnav__item">
+             <a class="mobnav__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            
+          </li>
+          <li class="mobnav__item">
+            <a class="mobnav__tel-meil" href="info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="socialmob">
+          <li class="socialmob__item">Instagram</li>
+          <span class="socialmob__line"></span>
+          <li class="socialmob__item" i>Twitter</li>
+          <span class="socialmob__line"></span>
+          <li class="socialmob__item">Facebook</li>
+          <span class="socialmob__line"></span>
+          <li class="socialmob__item">LinkedIn</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="./js/burger-portfolio.js"></script>
   </body>
 </html>

@@ -1,17 +1,5 @@
 .cards {
-  display: flex;
-  align-items: center;
-  padding: 0 24px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
 
-  letter-spacing: 0.03em;
-
-  color: #FFFFFF;
-  background-color: #2196F3;
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media (min-width: 768px) {
     display: flex;
@@ -70,25 +58,25 @@
 
 
   &__overlay {
-
     height: 294px;
-
-    @media (max-width: 481px) {
-      height: 294px;
-    }
-
     overflow: hidden;
-
   }
-
-
 
   &__text {
     height: 294px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
 
-    @media (max-width: 481px) {
-      height: 294px;
-    }
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -103,10 +91,10 @@
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 2.00;
 
     letter-spacing: 0.06em;
-    color: var(--secondary-text-color);
+    color: #212121;
   }
 
   &__text {

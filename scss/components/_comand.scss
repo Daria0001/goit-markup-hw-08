@@ -1,10 +1,13 @@
 .comand {
   padding: 60px 0;
-  background: #f5f4fa;
+  background: #F5F4FA;
+
+  @media (min-width: 1200px) {
+    padding: 94px 0;
+  }
 
   &__title {
     display: flex;
-    margin-top: 0;
     margin-bottom: 30px;
     justify-content: center;
     font-weight: 700;
@@ -12,11 +15,30 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #212121;
+
+    @media (min-width: 1200px) {
+      font-size: 36px;
+      line-height: 1.16;
+      margin-bottom: 50px;
+    }
   }
 
   &__flex {
-    margin: 0;
-    padding: 0;
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  &__list {
+    flex-basis: calc((100% - 1 * 30px) / 2);
+
+
+
+    @media (min-width: 1200px) {
+      flex-basis: calc((100% - 3 * 30px) / 4);
+    }
   }
 
   &__list {
@@ -24,11 +46,19 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    background: #ffffff;
+    background: #FFFFFF;
   }
 
   &__list:not(:last-child) {
-    margin-bottom: 30px;
+    @media (max-width: 1199.95px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__list:nth-last-child(-n + 2) {
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
   }
 
   &__person {
